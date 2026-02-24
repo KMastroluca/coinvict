@@ -6,7 +6,7 @@ set -e
 # Check if package.json exists
 if [ -f "package.json" ]; then
     echo "package.json found. Running yarn..."
-    npm i
+    yarn
 else
     echo "No package.json found. Skipping yarn."
 fi
