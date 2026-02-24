@@ -1,0 +1,16 @@
+{
+  "name": "coinvict",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers project built with Wrangler",
+  "main": "worker.ts",
+  "scripts": {
+    "start": "wrangler dev",
+    "build": "wrangler build",
+    "deploy": "wrangler publish"
+  },
+  "author": "Lorenzo",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
