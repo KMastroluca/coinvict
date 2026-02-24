@@ -6,13 +6,12 @@ set -e
 # Check if package.json exists
 if [ -f "package.json" ]; then
     echo "package.json found. Running yarn..."
-    yarn
+    bun install
 else
     echo "No package.json found. Skipping yarn."
 fi
-yarn
-yarn add -g typescript -y
-tsc --init .
+
+bun add -g typescript -y
 
 # Git add, commit, push
 echo "Adding changes to git..."
