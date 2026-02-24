@@ -11,7 +11,6 @@ else
     echo "No package.json found. Skipping yarn."
 fi
 
-bun add -g typescript -y
 
 # Git add, commit, push
 echo "Adding changes to git..."
