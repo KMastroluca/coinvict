@@ -3,7 +3,7 @@
 export default {
     
     
-    async function fetch(req:Request, res:Response, ctx: any):Promise<Response> {
+    async fetch(req:Request, res:Response, ctx: any):Promise<Response> {
         
         console.log("Worker");
         
