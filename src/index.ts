@@ -1,16 +1,15 @@
-
-
 export default {
     
     
-    async fetch(req:Request, res:Response, ctx: any):Promise<Response> {
+    async fetch(req:Request, res:Response, ctx: any) {
         
         console.log("Worker");
         
         
         
         
-    } satisfies ExportedHandler<Env>
+    }
+    
         
     
     
@@ -18,5 +17,5 @@ export default {
     
     
     
-}
+} satisfies ExportedHandler<Env>
 
